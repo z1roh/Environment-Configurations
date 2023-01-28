@@ -22,6 +22,38 @@ In this point, you can open neovim with `nvim` and use `:` for specify the comma
 
 You remember update your plugins, this action is important, you can use for this action the command `:PlugUpgrade`.
 
+## Ranger
+You can use the following command for install `ranger`:
+```sh
+sudo apt install ranger
+```
+
+It's must have the devicons how plugins for this console file manager in the path `.config/ranger/plugins`. This repository have this plugins, you only need clone this folder (`ranger`) with his subfolder in the path '.config'.
+
+Ranger Ssheet cheat:
+| Key | Description |
+| --- | ----------- |
+|`/`  | sirve para buscar
+|`f`  | navegacion rapida entrando solo una parte del archivo
+|`gg` | mueve al principio
+|`G`  | mueve al final
+|`S`  | abre una consola en el directorio actual
+|`yy` | copiar lo selecionado
+|`dd` | cortar lo seleccionado
+|`pp` | pegar lo seleccionado
+|`mX` | crea un marcador con el nombre X
+|`‘X` | se mueve al marcador X
+|`m`  | abre un popup de marcadores
+|`Barra Espaciadora` | marca un archivo
+|`gn` | abre una nueva pestaña
+|`gN` | se mueve a la pestaña N
+|`TAB`| mueve entre pestañas
+|`:delete` | borra un archivo
+|`:rename` | renombra un archivo
+|`Ctrl+H`  | para ver los archivos ocultos
+|`w`  | ver las operaciones en curso
+|`r`  | abre el archivo con una aplicacion a elegir
+
 ## .zshrc
 The `.zshrc` file is the configuration for default in a terminal linux that use ZSH. This same configuration work in `.bashrc`.
 
